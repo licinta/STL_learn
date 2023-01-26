@@ -17,6 +17,16 @@
 					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,11 +37,45 @@
 					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="namespace">
+				<Option output="/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/namespace" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 namespace"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="namespace/fast">
+				<Option output="/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/namespace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 namespace/fast"/>
 					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -84,6 +128,9 @@
 		</Build>
 		<Unit filename="/home/licinta/JetBrains/CLionProjects/STL-learn/main.cpp">
 			<Option target="STL_learn"/>
+		</Unit>
+		<Unit filename="/home/licinta/JetBrains/CLionProjects/STL-learn/namespace.cpp">
+			<Option target="namespace"/>
 		</Unit>
 		<Unit filename="/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

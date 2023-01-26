@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/licinta/Public/clion-2020.3.4/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/licinta/Public/clion-2020.3.4/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named namespace
+
+# Build rule for target.
+namespace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 namespace
+.PHONY : namespace
+
+# fast build rule for target.
+namespace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/build
+.PHONY : namespace/fast
 
 #=============================================================================
 # Target rules for targets named STL_learn
@@ -170,6 +183,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STL_learn.dir/build.make CMakeFiles/STL_learn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+namespace.o: namespace.cpp.o
+
+.PHONY : namespace.o
+
+# target to build an object file
+namespace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/namespace.cpp.o
+.PHONY : namespace.cpp.o
+
+namespace.i: namespace.cpp.i
+
+.PHONY : namespace.i
+
+# target to preprocess a source file
+namespace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/namespace.cpp.i
+.PHONY : namespace.cpp.i
+
+namespace.s: namespace.cpp.s
+
+.PHONY : namespace.s
+
+# target to generate assembly for a file
+namespace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/namespace.cpp.s
+.PHONY : namespace.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +219,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... STL_learn"
+	@echo "... namespace"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... namespace.o"
+	@echo "... namespace.i"
+	@echo "... namespace.s"
 .PHONY : help
 
 
