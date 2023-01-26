@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/STL_learn.dir/main.cpp.o  -o STL_learn 
