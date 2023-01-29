@@ -1,4 +1,0 @@
-/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/CMakeFiles/namespace.dir
-/home/licinta/JetBrains/CLionProjects/STL-learn/cmake-build-debug/CMakeFiles/STL_learn.dir
