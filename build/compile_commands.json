@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/chen/Desktop/STL_Learn/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14 -o CMakeFiles/namespace.dir/namespace/namespace.cpp.o -c /Users/chen/Desktop/STL_Learn/namespace/namespace.cpp",
+  "file": "/Users/chen/Desktop/STL_Learn/namespace/namespace.cpp"
+}
+]
