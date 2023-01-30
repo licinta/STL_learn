@@ -1,5 +1,0 @@
-/home/licinta/Desktop/C++/class/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/licinta/Desktop/C++/class/cmake-build-debug/CMakeFiles/const.dir
-/home/licinta/Desktop/C++/class/cmake-build-debug/CMakeFiles/class.dir
-/home/licinta/Desktop/C++/class/cmake-build-debug/CMakeFiles/static.dir
-/home/licinta/Desktop/C++/class/cmake-build-debug/CMakeFiles/edit_cache.dir
