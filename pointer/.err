@@ -1,0 +1,8 @@
+pointer.c:2:1: error: 'include' does not name a type
+    2 | include
+      | ^~~~~~~
+pointer.c: In function 'void funny()':
+pointer.c:9:15: error: 'hello' was not declared in this scope; did you mean 'ftello'?
+    9 |     a[6]=(int)hello;
+      |               ^~~~~
+      |               ftello

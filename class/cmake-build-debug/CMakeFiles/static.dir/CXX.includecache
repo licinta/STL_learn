@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/licinta/Desktop/C++/class/static.cpp
+cstring
+-
+iostream
+/home/licinta/Desktop/C++/class/iostream
+
