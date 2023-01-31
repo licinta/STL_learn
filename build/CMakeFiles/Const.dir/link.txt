@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Const.dir/class/const.cpp.o -o Const 

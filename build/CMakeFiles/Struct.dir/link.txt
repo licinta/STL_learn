@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Struct.dir/ref/struct.cpp.o -o Struct 

@@ -3,4 +3,12 @@ project(STL_learn)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(namespace namespace/namespace.cpp)
+add_executable(Namespace namespace/namespace.cpp)
+add_executable(Extern extern/extern.cpp extern/func.cpp)
+add_executable(Template template/template.cpp)
+add_executable(Ref ref/ref.cpp)
+add_executable(Struct ref/struct.cpp)
+add_executable(Link link/test.cpp)
+add_executable(Class class/class.cpp)
+add_executable(Const class/const.cpp)
+add_executable(Static class/static.cpp)

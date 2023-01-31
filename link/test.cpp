@@ -1,5 +1,6 @@
-#include"hello.h"
-int main(){
+#include "hello"
+int main()
+{
 	print_hello();
 	return 0;
 }

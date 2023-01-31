@@ -1,7 +1,52 @@
 [
 {
-  "directory": "/Users/chen/Desktop/STL_Learn/build",
-  "command": "/usr/local/opt/llvm/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14 -o CMakeFiles/namespace.dir/namespace/namespace.cpp.o -c /Users/chen/Desktop/STL_Learn/namespace/namespace.cpp",
-  "file": "/Users/chen/Desktop/STL_Learn/namespace/namespace.cpp"
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Namespace.dir/namespace/namespace.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/namespace/namespace.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/namespace/namespace.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Extern.dir/extern/extern.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/extern/extern.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/extern/extern.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Extern.dir/extern/func.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/extern/func.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/extern/func.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Template.dir/template/template.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/template/template.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/template/template.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Ref.dir/ref/ref.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/ref/ref.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/ref/ref.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Struct.dir/ref/struct.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/ref/struct.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/ref/struct.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Link.dir/link/test.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/link/test.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/link/test.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Class.dir/class/class.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/class/class.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/class/class.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Const.dir/class/const.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/class/const.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/class/const.cpp"
+},
+{
+  "directory": "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Static.dir/class/static.cpp.o -c /home/licinta/JetBrains/CLionProjects/STL-learn/class/static.cpp",
+  "file": "/home/licinta/JetBrains/CLionProjects/STL-learn/class/static.cpp"
 }
 ]

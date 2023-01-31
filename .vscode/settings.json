@@ -1,4 +1,7 @@
 {
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "aiXcoder.showTrayIcon": true
+    "files.associations": {
+        "iostream": "cpp",
+        "cstdio": "cpp",
+        "hello": "cpp"
+    }
 }

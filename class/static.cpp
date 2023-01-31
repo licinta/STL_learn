@@ -42,9 +42,9 @@ public:
     }
 };
 
-//int bicycle::width;
-//int bicycle::length;
-//string bicycle::owner;
+int bicycle::width;
+int bicycle::length;
+string bicycle::owner;
 //in cpp language , we must state it before we use the static variables.
 //or we will meet errors of "undefined reference to `bicycle::owner[abi:cxx11]'" which caused by ld process.
 
