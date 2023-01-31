@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/Extern.dir/extern/extern.cpp.o CMakeFiles/Extern.dir/extern/func.cpp.o -o Extern 
