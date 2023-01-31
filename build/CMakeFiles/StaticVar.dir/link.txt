@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/StaticVar.dir/static/object.cpp.o -o StaticVar 

@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STL_learn",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Class-Debug-91a09d91dec2ec7ca277.json",
+					"name" : "Class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Const::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Const-Debug-5b39f82b347f6c8a4287.json",
+					"name" : "Const",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Extern::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Extern-Debug-d7b73b6cb96ed86140d3.json",
+					"name" : "Extern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Link::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Link-Debug-0513b03d2448bd189380.json",
+					"name" : "Link",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Namespace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Namespace-Debug-f114a552c0baa814052d.json",
+					"name" : "Namespace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ref::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ref-Debug-e917b649b1f75b713b10.json",
+					"name" : "Ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StaticObject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StaticObject-Debug-961f4536892ca6e6b73d.json",
+					"name" : "StaticObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StaticVariable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StaticVariable-Debug-886f4fe63c180b99a7c5.json",
+					"name" : "StaticVariable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Struct-Debug-ff8ba8f7c1f4dc2c6986.json",
+					"name" : "Struct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Template-Debug-c3d984eb829b7c925a23.json",
+					"name" : "Template",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/licinta/JetBrains/CLionProjects/STL-learn/build",
+		"source" : "/home/licinta/JetBrains/CLionProjects/STL-learn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

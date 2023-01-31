@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/StaticVariable.dir/static/variable.cpp.o -o StaticVariable 
