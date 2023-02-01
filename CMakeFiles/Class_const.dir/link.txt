@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Class_const.dir/class/const.cpp.o -o Class_const 

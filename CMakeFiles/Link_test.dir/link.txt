@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Link_test.dir/link/test.cpp.o -o Link_test 

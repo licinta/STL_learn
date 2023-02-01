@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Namespace_namespace.dir/namespace/namespace.cpp.o -o Namespace_namespace 

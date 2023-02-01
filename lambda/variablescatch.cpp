@@ -9,25 +9,64 @@
 // 此外，在返回类型明确的情况下，也可以省略该部分，让编译器对返回类型进行推导。
 //  {statement}：函数体。内容与普通函数一样，不过除了可以使用参数之外，还可以使用所有捕获的变量。
 #include "iostream"
+#include "iomanip"
 using namespace std;
-void f1()
+void f()
 {
-    int i = 1024, j = 2048;
+    int i = 10, j = 20;
 
-    cout << "i:" << &i << endl;
-    cout << "j:" << &j << endl;
+    cout << "i_ptr:" << &i << endl;
+    cout << "j_ptr:" << &j << endl;
+    cout << "i_val:" << i << endl;
+    cout << "j_val:" << j << endl;
 
-    auto fun1 = [i, &j] mutable { // 默认拷贝外部所有变量，但引用变量 i
+    auto fun1 = [=, &j] mutable { // 默认拷贝外部所有变量，但引用变量 i
         i *= i;
         // j *= j;会报错，此时需要有mutable修饰（默认是const)，引用并且可以改变
         j *= j;
-        cout << "i:" << &i << endl;
-        cout << "j:" << &j << endl;
+        cout << "i_ptr:" << &i << endl;
+        cout << "j_ptr:" << &j << endl;
+        cout << "i_val:" << i << endl;
+        cout << "j_val:" << j << endl;
     };
     fun1();
 }
+
+class lambda_this
+{
+public:
+    int i, j;
+    lambda_this(int i, int j) : i(i), j(j) {}
+    void change(int x, int y)
+    {
+        this->i = x, this->j = y;
+    }
+    void lambda_caller(int x, int y)
+    {
+        cout << "the initial value of i,j is: " << i << " " << j << endl;
+        change(x, y);
+        cout << "the value of i,j after initialized is: " << i << " " << j << endl;
+        auto lambda0 = [=](int x, int y)
+        { change(x, y); };
+        auto lambda1 = [&](int x, int y)
+        { change(x, y); };
+        auto lambda2 = [this](int x, int y)
+        { change(x, y); };
+        lambda0(100, 100);
+        cout << "the value of i,j after lambda0 is: " << i << " " << j << endl;
+        lambda1(200, 200);
+        cout << "the value of i,j after lambda1 is: " << i << " " << j << endl;
+        lambda2(300, 300);
+        cout << "the value of i,j after lambda2 is: " << i << " " << j << endl;
+    }
+};
 int main()
 {
-    f1();
+    cout << "->" << setw(5) << " " << setw(11) << "simple lamb" << endl;
+    f();
+
+    cout << "->" << setw(5) << " " << setw(11) << "lambda_this" << endl;
+    lambda_this lambda1(1, 2);
+    lambda1.lambda_caller(2, 2);
     return 0;
 }

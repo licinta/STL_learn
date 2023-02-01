@@ -1,0 +1,14 @@
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Namespace_namespace.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Namespace_setw.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Extern_extern.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Template_template.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Ref_ref.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Ref_struct.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Link_test.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Class_class.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Class_const.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Static_object.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Static_variable.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/Lambda_variablecatch.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/edit_cache.dir
+/home/licinta/JetBrains/CLionProjects/STL-learn/CMakeFiles/rebuild_cache.dir
