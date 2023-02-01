@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Namespace_setw.dir/namespace/setw.cpp.o -o Namespace_setw 

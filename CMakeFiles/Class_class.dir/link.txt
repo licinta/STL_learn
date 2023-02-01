@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Class_class.dir/class/class.cpp.o -o Class_class 

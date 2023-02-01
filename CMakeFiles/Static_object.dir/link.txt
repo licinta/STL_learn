@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Static_object.dir/static/object.cpp.o -o Static_object 
